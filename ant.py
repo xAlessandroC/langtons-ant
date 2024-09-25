@@ -16,7 +16,7 @@ REAL_HEIGHT = math.floor(HEIGHT / RESOLUTION)
 START_POS = (math.floor(REAL_WIDTH / 2), math.floor(REAL_HEIGHT / 2))
 DIRECTIONS = ["N", "E", "S", "W"]
 FACING = 0
-RULE = os.getenv("RULE", "LR")
+RULE = os.getenv("RULE", "RL")
 CELL_STATE = [[0 for _ in range(REAL_WIDTH)] for _ in range(REAL_HEIGHT)]
 
 # Pygame variables
